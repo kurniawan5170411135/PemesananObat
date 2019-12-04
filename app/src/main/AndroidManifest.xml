@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:dist="http://schemas.android.com/apk/distribution"
+    package="com.example.PemesananObat">
+
+    <dist:module dist:instant="true" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name="com.example.PemesananObat.bayar"></activity>
+        <activity android:name="com.example.PemesananObat.account2" />
+        <activity android:name="com.example.PemesananObat.Account" />
+        <activity android:name="com.example.PemesananObat.menuobat.oluar" />
+        <activity android:name="com.example.PemesananObat.menuobat.suplemen" />
+        <activity android:name="com.example.PemesananObat.menuobat.obatuk" />
+        <activity android:name="com.example.PemesananObat.menuobat.opilek" />
+        <activity android:name="com.example.PemesananObat.menuobat.odemam" />
+        <activity android:name="com.example.PemesananObat.menu" />
+        <activity android:name="com.example.PemesananObat.register" />
+        <activity android:name="com.example.PemesananObat.login" />
+        <activity android:name="com.example.PemesananObat.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
