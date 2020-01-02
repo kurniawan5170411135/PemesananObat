@@ -52,9 +52,7 @@ class register : AppCompatActivity() {
 
                 override fun onResponse(response: JSONObject?) {
                     loading.dismiss()
-                    Toast.makeText(applicationContext,response?.getString("message"),Toast.LENGTH_SHORT).show()
-                    if(response?.getString("message")?.contains("successfully")!!){
-                    }
+                    Toast.makeText(applicationContext,"terdaftar", Toast.LENGTH_SHORT).show()
                 }
                 override fun onError(anError: ANError?) {
                     loading.dismiss()

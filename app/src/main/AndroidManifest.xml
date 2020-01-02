@@ -14,18 +14,23 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name="com.example.PemesananObat.bayar"></activity>
-        <activity android:name="com.example.PemesananObat.account2" />
-        <activity android:name="com.example.PemesananObat.Account" />
-        <activity android:name="com.example.PemesananObat.menuobat.oluar" />
-        <activity android:name="com.example.PemesananObat.menuobat.suplemen" />
-        <activity android:name="com.example.PemesananObat.menuobat.obatuk" />
-        <activity android:name="com.example.PemesananObat.menuobat.opilek" />
-        <activity android:name="com.example.PemesananObat.menuobat.odemam" />
-        <activity android:name="com.example.PemesananObat.menu" />
-        <activity android:name="com.example.PemesananObat.register" />
-        <activity android:name="com.example.PemesananObat.login" />
-        <activity android:name="com.example.PemesananObat.MainActivity">
+        <activity android:name=".Akun"></activity>
+        <activity android:name=".Pembayaran" />
+        <activity android:name=".PesanObat" />
+        <activity android:name=".MenuObat" />
+        <activity android:name=".Obat" />
+        <activity android:name=".bayar" />
+        <activity android:name=".account2" />
+        <activity android:name=".Account" />
+        <activity android:name=".menuobat.oluar" />
+        <activity android:name=".menuobat.suplemen" />
+        <activity android:name=".menuobat.obatuk" />
+        <activity android:name=".menuobat.opilek" />
+        <activity android:name=".menuobat.odemam" />
+        <activity android:name=".menu" />
+        <activity android:name=".register" />
+        <activity android:name=".login" />
+        <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

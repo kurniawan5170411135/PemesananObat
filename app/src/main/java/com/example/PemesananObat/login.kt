@@ -21,8 +21,6 @@ class login : AppCompatActivity() {
         setContentView(R.layout.activity_login)
 
         bt_log.setOnClickListener{
-            intent = Intent(this, Account::class.java)
-            startActivity(intent)
             CekLogin()
         }
     }
@@ -53,7 +51,7 @@ class login : AppCompatActivity() {
                         if (jsonArray?.length()-1 == i) {
                             tv_id_ambil.setText(id_pengguna)
                             val id_kir = tv_id_ambil.text
-                            intent = Intent(this@login, Account::class.java)
+                            intent = Intent(this@login, menu::class.java)
                             intent.putExtra("id", id_kir)
                             startActivity(intent)
                         }
